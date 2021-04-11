@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 25px;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.value {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  color: rgb(146, 25, 25);
+}
+
+.label {
+  font-size: 24px;
+  font-style: italic;
+  color: rgb(212, 205, 205);
+}
